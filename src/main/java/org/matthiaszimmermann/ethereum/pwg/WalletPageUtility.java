@@ -6,7 +6,7 @@ public class WalletPageUtility extends HtmlUtility {
 	public static final String VERSION = "0.4.0-SNAPSHOT";
 	public static final String REPOSITORY = "https://github.com/matthiaszimmermann/ethereum-paper-wallet";
 
-	public static final String TITLE = "Ethereum Paper Wallet";
+	public static final String TITLE = "Metaverse Paper Wallet";
 	public static final String ETHEREUM_LOGO = "/ethereum_logo.png"; 
 	
 	public static final String CSS_CLEARFIX = "clearfix";
@@ -130,10 +130,10 @@ public class WalletPageUtility extends HtmlUtility {
 		HtmlUtility.addCloseDiv(html);		
 		
 		// add footer content
-		String footer = String.format("Page created with EPW Generator [%s] V %s", REPOSITORY, VERSION);
-		HtmlUtility.addOpenFooter(html, CSS_FOOTER);
-		HtmlUtility.addContent(html, footer);
-		HtmlUtility.addCloseFooter(html);
+		//String footer = String.format("Page created with EPW Generator [%s] V %s", REPOSITORY, VERSION);
+		//HtmlUtility.addOpenFooter(html, CSS_FOOTER);
+		//HtmlUtility.addContent(html, footer);
+		//HtmlUtility.addCloseFooter(html);
 				
 		HtmlUtility.addCloseElements(html, HtmlUtility.BODY, HtmlUtility.HTML);
 
